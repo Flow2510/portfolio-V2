@@ -42,7 +42,7 @@ export default function Menu({ menuIsOpen, setMenuIsOpen }) {
                 </NavLink>
             </nav>
             <div className='menu__contact'>
-                <a className='menu__contact-link' href="http://www.google.com" target='_blank'>
+                <a className='menu__contact-link' href="https://github.com/Flow2510" target='_blank'>
                     <motion.span
                         key={menuIsOpen}
                         initial={{ y: "100%" }}
@@ -53,7 +53,7 @@ export default function Menu({ menuIsOpen, setMenuIsOpen }) {
                         Github
                     </motion.span>
                 </a>
-                <a className='menu__contact-link' href="http://www.google.com" target='_blank'>
+                <a className='menu__contact-link' href="mailto:sendra.florian@gmail.com" target='_blank'>
                     <motion.span
                         key={menuIsOpen}
                         initial={{ y: "100%" }}
@@ -64,7 +64,7 @@ export default function Menu({ menuIsOpen, setMenuIsOpen }) {
                         Mail
                     </motion.span>
                 </a>
-                <a className='menu__contact-link' href="http://www.google.com" target='_blank'>
+                <a className='menu__contact-link' href="https://www.linkedin.com/in/florian-sendra-3270961a1/" target='_blank'>
                     <motion.span
                         key={menuIsOpen}
                         initial={{ y: "100%" }}
