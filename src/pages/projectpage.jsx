@@ -27,19 +27,19 @@ export default function ProjectPage({projects, isDesktop }) {
             <main
                 style={{ backgroundColor: `color-mix(in srgb, ${project.color},  transparent 90%)` }}
             >
-                {!isDesktop ?
-                    <AnimatePresence mode="wait">
-                        <div key={id}>
-                            <ProjectSlider project={project} />
-                            <ProjectInfo project={project} />
-                        </div>
-                    </AnimatePresence>
-                :
+                {isDesktop ?
                     <AnimatePresence mode="wait">
                         <div key={id}>
                             <ProjectDesktop 
                                 project={project}
                             />
+                        </div>
+                    </AnimatePresence>                    
+                :
+                    <AnimatePresence mode="wait">
+                        <div key={id}>
+                            <ProjectSlider project={project} />
+                            <ProjectInfo project={project} />
                         </div>
                     </AnimatePresence>
                 }

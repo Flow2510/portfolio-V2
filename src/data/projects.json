@@ -7,8 +7,8 @@
     "link": "https://aubergedelporvenir.netlify.app/",
     "type": "Portfolio",
     "videos": [
-      "/public/videos/portfolio-v2-intro.mp4",
-      "/public/videos/portfolio-v2-menu.mp4"
+      "/videos/portfolio-v2-intro.mp4",
+      "/videos/portfolio-v2-menu.mp4"
     ],
     "images": [
       "/images/portfolio-v2-mockup.webp",
@@ -29,8 +29,8 @@
     "link": "https://lorem-agency.vercel.app/",
     "type": "Site Agence",
     "videos": [
-      "/public/videos/lorem-intro.mp4",
-      "/public/videos/lorem-body.mp4"
+      "/videos/lorem-intro.mp4",
+      "/videos/lorem-body.mp4"
     ],
     "images": [
       "/images/lorem-agency-mockup.webp",
@@ -52,8 +52,8 @@
     "link": "https://aubergedelporvenir.netlify.app/",
     "type": "Site Vitrine",
     "videos": [
-      "/public/videos/porvenir-gallery.mp4",
-      "/public/videos/porvenir-body.mp4"
+      "/videos/porvenir-gallery.mp4",
+      "/videos/porvenir-body.mp4"
     ],
     "images": [
       "/images/porvenir-mockup.webp",
@@ -75,8 +75,8 @@
     "link": "https://restapicountriesflow2510.netlify.app/",
     "type": "Application Web",
     "videos": [
-      "/public/videos/countries-body.mp4",
-      "/public/videos/countries-search.mp4"
+      "/videos/countries-body.mp4",
+      "/videos/countries-search.mp4"
     ],
     "images": [
       "/images/countries-mockup.webp",
@@ -98,8 +98,8 @@
     "link": "https://weathernowflow2510.netlify.app/",
     "type": "Application Web",
     "videos": [
-      "/public/videos/weather-search.mp4",
-      "/public/videos/weather-switch.mp4"
+      "/videos/weather-search.mp4",
+      "/videos/weather-switch.mp4"
     ],
     "images": [
       "/images/weather-mockup.webp",
@@ -122,8 +122,8 @@
     "link": "https://sendraflorian.netlify.app/",
     "type": "Portfolio",
     "videos": [
-      "/public/videos/loader-portfolio.mp4",
-      "/public/videos/gallery-portfolio.mp4"
+      "/videos/loader-portfolio.mp4",
+      "/videos/gallery-portfolio.mp4"
     ],
     "images": [
       "/images/portfolio3-mobile-mockup.webp",
