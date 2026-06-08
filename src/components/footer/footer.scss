@@ -1,45 +1,59 @@
 .footer{
-    padding: 2rem 1rem;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 1600px; 
+    margin: auto;
 
-    @media screen and (min-width: 768px){
-        padding: 3rem;
+    @media screen and (min-width:768px){
+        margin-top: 2rem;
+    }
+
+    &__line{
+        width: 100%;
+        height: 1px;
+        background: #878787;
     }
     
     &__content{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
-        
-        &-container{
-            display: flex; 
-            flex-direction: column;
-            gap: 0.5rem;
+        align-items: center;
+        padding-bottom: 1rem;
+        gap: 0.5rem;
 
-            @media screen and (min-width:768px){
-                gap: 1rem;
-            }
-        }
-
-        &-wrapper{
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-
-            @media screen and (min-width:768px) {
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: flex-end;
-            }
+        @media screen and (min-width:768px){
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
         }
 
         &-title{
-            font-size: 1.3rem;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: .88;
+            letter-spacing: .02em;
+            text-transform: uppercase;
         }
-    }
 
-    &__social{
-        display: flex;
-        gap: 2rem;
+        &-link{
+            font-weight: 600;
+            font-size: 12px;
+            line-height: .88;
+            letter-spacing: .02em;
+            text-transform: uppercase;
+            color: inherit;
+            text-decoration: none;
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+
+            &--arrow{
+                font-size: 0.5rem;
+                transform: rotateZ(-45deg);
+            }
+        }
     }
 }

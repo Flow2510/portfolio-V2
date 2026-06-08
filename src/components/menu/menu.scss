@@ -1,0 +1,69 @@
+.menu{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    background: #111;
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        padding: 1rem;
+        gap: 1.5rem;
+
+        &-link{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: inherit;
+            font-weight: 400;
+            line-height: 110%;
+            font-size: 4rem;
+            font-family: "antonio", sans-serif;
+            letter-spacing: -0.5VW;
+            transform-origin: left;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover{
+                transform: translateX(30px);
+            }
+
+            @media screen and (min-width:768px) {
+                font-size: 6rem;
+            }
+
+            @media screen and (min-width:1024px) {
+                font-size: 8rem;
+            }
+
+            span{
+                display: inline-block;
+            }
+        }
+    }
+
+    &__contact{
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 400px;
+        
+        &-link{
+            text-decoration: none;
+            color: inherit;
+            font-family: "roboto mono", sans-serif;
+            overflow: hidden;
+            
+            span{
+                display: inline-block;
+            }
+        }
+    }
+}

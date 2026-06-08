@@ -1,0 +1,14 @@
+.reveal-word{
+    display: flex;
+    column-gap: 0.6rem;
+    flex-wrap: wrap;
+
+    @media screen and (min-width:1024px) {
+        column-gap: 0.6rem;
+    }
+
+    &__word{
+        display: inline-block;
+        overflow: hidden;
+    }
+}

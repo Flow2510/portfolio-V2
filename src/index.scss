@@ -3,32 +3,20 @@
     box-sizing: border-box;
 }
 
-#root{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 html{
-    background: #121212;
-    color: #fafafa;    
-    font-family: "inter", sans-serif;
-    font-weight: 300;
+    font-family: "roboto mono", sans-serif;
+    background-color: #111;
+    color: #fff;
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width: 768px){
         font-size: 18px;
+    }
+
+    @media screen and (min-width: 1024px){
+        font-size: 20px;
     }
 }
 
 main{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-h1, h2, h3, h4{
-    font-weight: 400;
-    font-family: "Host Grotesk", sans-serif;
-    line-height: 110%;
-    text-transform: uppercase;
+    min-height: 100dvh;
 }

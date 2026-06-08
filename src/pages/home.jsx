@@ -1,20 +1,13 @@
-import Cta from "../components/cta/cta";
-import Gallery from "../components/gallery/gallery";
+import Header from "../components/header/header";
 import Hero from "../components/hero/hero";
-import Info from "../components/info/info";
-import { useRef } from "react";
-import ScrollDriven from "../components/scrolldriven/scrolldriven";
 
-export default function Home({ projects, setSelectedCategories }) {
-    const sectionRef = useRef(null)
-
+export default function Home({ projects, isDesktop, isTablet }) {
     return(
-        <main>
-            <Hero sectionRef={sectionRef}/>
-            <Gallery projects={projects} sectionRef={sectionRef}/>
-            <Cta to={'/about'}/>
-            <ScrollDriven />
-            <Info />
-        </main>
+        <>
+            <Header />
+            <main>
+                <Hero projects={projects} isDesktop={isDesktop} isTablet={isTablet} />
+            </main>
+        </>
     )
 }

@@ -1,0 +1,55 @@
+.project-info{
+    padding: 1rem 1rem 3rem;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        &-gallery{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+                
+        &-title{
+            display: flex;
+            gap: 0.5rem;
+            font-size: 80px;
+            letter-spacing: -2px;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            font-family: "antonio", sans-serif;
+            font-weight: 600;
+            transform-origin: left;
+            line-height: 110%;
+            transform: scaleX(0.7);
+        }
+
+        &-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        &-link{
+            color: inherit;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: .88;
+            display: flex;
+            gap: 0.3rem;
+            border-bottom: 1px solid;
+            text-decoration: none;
+            width: fit-content;
+            padding-bottom: 0.3rem;
+            align-items: center;
+
+            &--arrow{
+                transform: rotateZ(-45deg);
+                font-size: 0.6rem;
+            }
+        }
+    }
+}

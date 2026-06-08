@@ -1,0 +1,37 @@
+.about-hero{
+    padding: 9rem 1rem;
+    max-width: 1600px;
+    margin: auto;
+
+    @media screen and (min-width:1024px) {
+        height: 90dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        max-width: 1200px;
+
+        h2{
+            font-family: "antonio", sans-serif;
+            font-size: 80px;
+            transform: scaleX(0.7);
+            display: inline-block;
+            line-height: 125%;
+            width: fit-content;
+            font-weight: 700;
+            text-transform: capitalize;
+
+            .reveal-word{
+                gap: 1rem;
+            }
+
+            @media screen and (min-width:1024px) {
+                font-size: 160px;
+            }
+        }
+    }
+}

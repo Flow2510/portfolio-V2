@@ -1,13 +1,19 @@
-import FeatureSection from "../components/featuresection/featuresection";
-import Info from "../components/info/info";
-import Presentation from "../components/presentation/presentation";
+import { motion } from "motion/react";
+import AboutHero from "../components/abouthero/abouthero";
+import AboutInfo from "../components/aboutinfo/aboutinfo";
+import Footer from "../components/footer/footer";
+import Header from "../components/header/header";
 
-export default function About() {
+export default function About({ isDesktop }) {
     return(
-        <main>
-            <Presentation />
-            <FeatureSection />
-            <Info />
-        </main>
+        <>
+            <Header />
+            <motion.main
+            >
+                <AboutHero />
+                <AboutInfo isDesktop={isDesktop}/>
+            </motion.main>
+            <Footer />
+        </>
     )
 }

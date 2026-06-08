@@ -1,32 +1,49 @@
 import { useParams } from "react-router-dom";
-import Info from "../components/info/info";
-import Intro from "../components/intro/intro";
-import ProjectFeatures from "../components/projectfeatures/projectfeatures";
-import ReturnSection from "../components/returnsection/returnsection";
-import { useRef } from "react";
-import DualWrapper from "../components/dualwrapper/dualwrapper";
-
-export default function ProjectPage({projects}) {
+import HeaderProject from "../components/headerproject/headerproject";
+import ProjectSlider from "../components/projectslider/projectslider";
+import ProjectInfo from "../components/projectinfo/projectinfo";
+import { AnimatePresence } from "motion/react";
+import ProjectDesktop from "../components/projectdesktop/projectdesktop";
+   
+export default function ProjectPage({projects, isDesktop }) {
     const { id } = useParams()
-    const sectionRef = useRef(null)
-    const project = projects.find((project) => project.id === id)
+
+    if (!projects || projects.length === 0) {
+        return <div>Chargement des projets...</div>; 
+    }
+
+    const currentIndex = projects?.findIndex((p) => p.id === id);
+    const project = projects[currentIndex];
+
+    if (!project) {
+        return <div>Projet introuvable</div>;
+    }
+
+    const nextProject = projects[(currentIndex + 1) % projects.length];
 
     return(
-        <main>
-            <Intro 
-                project={project}
-                sectionRef={sectionRef}
-            />
-            <ProjectFeatures project={project}/>
-            <DualWrapper 
-                photo1={project.image2}
-                photo2={project.image3}
-            />
-            <ReturnSection 
-                to={"/projects"}
-                text={"Retour aux Projets"}
-            />
-            <Info />
-        </main>
+        <>
+            <HeaderProject nextProject={nextProject}/>
+            <main
+                style={{ backgroundColor: `color-mix(in srgb, ${project.color},  transparent 90%)` }}
+            >
+                {!isDesktop ?
+                    <AnimatePresence mode="wait">
+                        <div key={id}>
+                            <ProjectSlider project={project} />
+                            <ProjectInfo project={project} />
+                        </div>
+                    </AnimatePresence>
+                :
+                    <AnimatePresence mode="wait">
+                        <div key={id}>
+                            <ProjectDesktop 
+                                project={project}
+                            />
+                        </div>
+                    </AnimatePresence>
+                }
+            </main>
+        </>
     )
 }

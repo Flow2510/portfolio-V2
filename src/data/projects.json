@@ -1,45 +1,46 @@
 [
   {
-    "name": "Portfolio 03",
-    "id": "portfolio-03",
+    "name": "Portfolio V2",
+    "id": "portfolio-02",
     "year": "2026",
-    "link": "https://sendraflorian.netlify.app/",
-    "git": "https://github.com/Flow2510/portfolio-03",
-    "tags": ["UI moderne", "Animations", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router", "Framer Motion", "Swiper"],
-    "score": {
-      "desktop": { "perf": 99, "accessibility": 100, "bestPractices": 100, "seo": 100 },
-      "mobile": { "perf": 92, "accessibility": 100, "bestPractices": 100, "seo": 100 }
-    },
-    "image": "/images/portfolio3-mobile-mockup.webp",
-    "alt": "Mockup du portfolio personnel version 3 affiché sur un écran mobile",
-    "image2": "/images/portfolio3-mockup2.webp",
-    "alt2": "Mockup du portfolio personnel version 3 affiché sur un écran mobile",
-    "image3": "/images/portfolio3-mockup3.webp",
-    "alt3": "Mockup du portfolio personnel version 3 affiché sur un écran mobile",
-    "intro": "Portfolio React avec animations et navigation fluide.",
-    "text": "Portfolio conçu avec React pour présenter mes projets. J’ai mis l’accent sur la fluidité des animations, la structure des composants et une navigation claire. Le site est entièrement responsive et optimisé pour une expérience utilisateur rapide et cohérente."
+    "color": "#C0C0C0",
+    "link": "https://aubergedelporvenir.netlify.app/",
+    "type": "Portfolio",
+    "videos": [
+      "/public/videos/portfolio-v2-intro.mp4",
+      "/public/videos/portfolio-v2-menu.mp4"
+    ],
+    "images": [
+      "/images/portfolio-v2-mockup.webp",
+      "/images/portfolio-v2-mockup2.webp"
+    ],
+    "alts": [
+      "Mockup du portfolio v2 affiché sur un pc portable",
+      "Mockup du portfolio v2 affiché sur un smartphone"
+    ],
+    "intro": "Portfolio avec animations et interface moderne.",
+    "text": "Deuxième version de mon portfolio avec React. J’ai amélioré la structure du code et ajouté des animations pour rendre l’interface plus dynamique. Le projet m’a permis de consolider mes bases en composants et responsive design."
   },
   {
     "name": "Lorem Agency",
     "id": "lorem-agency",
     "year": "2026",
+    "color": "#E09B67",
     "link": "https://lorem-agency.vercel.app/",
-    "git": "https://github.com/Flow2510/Lorem-Agency",
-    "tags": ["UI moderne", "Animations", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router", "Framer Motion"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/lorem-agency-mockup.webp",
-    "alt": "Mockup d’un site de création digitale affiché sur un écran mobile",
-    "image2": "/images/lorem-agency-mockup2.webp",
-    "alt2": "Mockup d’un site de création digitale affiché sur un écran mobile",
-    "image3": "/images/lorem-agency-mockup3.webp",
-    "alt3": "Mockup d’un site de création digitale affiché sur un écran mobile",
+    "type": "Site Agence",
+    "videos": [
+      "/public/videos/lorem-intro.mp4",
+      "/public/videos/lorem-body.mp4"
+    ],
+    "images": [
+      "/images/lorem-agency-mockup.webp",
+      "/images/lorem-agency-mockup2.webp"
+    ],
+    "alts": [
+      "Mockup d’un site de création digitale affiché sur un écran mobile",
+      "Mockup d’un site de création digitale affiché sur un écran mobile",
+      "Mockup d’un site de création digitale affiché sur un écran mobile"
+    ],
     "intro": "Site d’agence créative conçu avec React et des animations immersives.",
     "text": "Concept de site pour une agence digitale moderne pensé pour présenter les services, les projets et l’identité visuelle de la marque à travers un univers premium et immersif. L’accent a été mis sur la fluidité des animations, l’élégance des mises en page et les interactions dynamiques afin de créer une expérience utilisateur forte. Le site est entièrement responsive et optimisé pour une navigation fluide sur tous les supports."
   },
@@ -47,132 +48,94 @@
     "name": "Porvenir",
     "id": "porvenir",
     "year": "2026",
+    "color": "#a7bb77",
     "link": "https://aubergedelporvenir.netlify.app/",
-    "git": "",
-    "tags": ["Site vitrine", "Responsive", "SEO"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router", "i18n", "Framer Motion"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/porvenir-mockup.webp",
-    "alt": "Mockup du site Porvenir affiché sur mobile",
-    "image2": "/images/porvenir-mockup.webp",
-    "alt2": "Mockup du site Porvenir affiché sur mobile",
-    "image3": "/images/porvenir-mockup.webp",
-    "alt3": "Mockup du site Porvenir affiché sur mobile",
+    "type": "Site Vitrine",
+    "videos": [
+      "/public/videos/porvenir-gallery.mp4",
+      "/public/videos/porvenir-body.mp4"
+    ],
+    "images": [
+      "/images/porvenir-mockup.webp",
+      "/images/porvenir-mockup2.webp"
+    ],
+    "alts": [
+      "Mockup du site Porvenir affiché sur mobile",
+      "Mockup du site Porvenir affiché sur mobile",
+      "Mockup du site Porvenir affiché sur mobile"
+    ],
     "intro": "Site vitrine responsive pour une auberge.",
     "text": "Site vitrine développé avec React pour présenter une auberge. Travail sur la clarté du contenu, le responsive design et l’optimisation SEO. L’interface est pensée pour être simple, lisible et efficace sur tous les supports."
   },
   {
-    "name": "Portfolio 02",
-    "id": "portfolio-02",
+    "name": "Countries App",
+    "id": "countriesapp",
     "year": "2026",
-    "link": "https://aubergedelporvenir.netlify.app/",
-    "git": "",
-    "tags": ["UI", "Animations", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router", "Framer Motion"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/portfolio02-mockup.webp",
-    "alt": "Mockup du portfolio version 2 affiché sur tablette",
-    "image2": "/images/portfolio02-mockup.webp",
-    "alt2": "Mockup du portfolio version 2 affiché sur tablette",
-    "image3": "/images/portfolio02-mockup.webp",
-    "alt3": "Mockup du portfolio version 2 affiché sur tablette",
-    "intro": "Portfolio avec animations et interface moderne.",
-    "text": "Deuxième version de mon portfolio avec React. J’ai amélioré la structure du code et ajouté des animations pour rendre l’interface plus dynamique. Le projet m’a permis de consolider mes bases en composants et responsive design."
-  },
-  {
-    "name": "Spylt Clone",
-    "id": "spylt",
-    "year": "2026",
-    "link": "https://github.com/Flow2510/spylt-clone",
-    "git": "",
-    "tags": ["Clone UI", "Animations", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "Framer Motion", "GSAP"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/spylt-mockup.webp",
-    "alt": "Mockup du clone Spylt affiché sur laptop",
-    "image2": "/images/spylt-mockup.webp",
-    "alt2": "Mockup du clone Spylt affiché sur laptop",
-    "image3": "/images/spylt-mockup.webp",
-    "alt3": "Mockup du clone Spylt affiché sur laptop",
-    "intro": "Clone du site Spylt avec animations avancées.",
-    "text": "Reproduction du site Spylt pour travailler les animations et le respect du design original. J’ai utilisé React et GSAP pour reproduire les interactions tout en gardant une structure propre et responsive."
-  },
-  {
-    "name": "REST Countries App",
-    "id": "restcountriesapp",
-    "year": "2026",
+    "color": "#FEBA68",
     "link": "https://restapicountriesflow2510.netlify.app/",
-    "git": "https://github.com/Flow2510/REST-Countries",
-    "tags": ["API", "Recherche dynamique", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router", "REST API"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/restcountries-mockup.webp",
-    "alt": "Mockup de l'application REST Countries sur mobile",
-    "image2": "/images/restcountries-mockup.webp",
-    "alt2": "Mockup de l'application REST Countries sur mobile",
-    "image3": "/images/restcountries-mockup.webp",
-    "alt3": "Mockup de l'application REST Countries sur mobile",
+    "type": "Application Web",
+    "videos": [
+      "/public/videos/countries-body.mp4",
+      "/public/videos/countries-search.mp4"
+    ],
+    "images": [
+      "/images/countries-mockup.webp",
+      "/images/countries-mockup2.webp"
+    ],
+    "alts": [
+      "Mockup de l'application REST Countries sur mobile",
+      "Mockup de l'application REST Countries sur mobile",
+      "Mockup de l'application REST Countries sur mobile"
+    ],
     "intro": "App React avec API pour explorer les pays.",
     "text": "Application React connectée à une API REST pour afficher et filtrer des pays. Mise en place d’une recherche dynamique, de filtres par région et d’une navigation fluide. Travail sur la gestion des données et l’UX."
   },
   {
-    "name": "Portfolio 01",
-    "id": "portfolio-01",
-    "year": "2025",
-    "link": "https://flowportfolio.netlify.app/",
-    "git": "",
-    "tags": ["Portfolio", "Responsive", "Animations"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "React-Router"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/portfolio-mockup.webp",
-    "alt": "Mockup du premier portfolio affiché sur laptop",
-    "image2": "/images/portfolio-mockup.webp",
-    "alt2": "Mockup du premier portfolio affiché sur laptop",
-    "image3": "/images/portfolio-mockup.webp",
-    "alt3": "Mockup du premier portfolio affiché sur laptop",
-    "intro": "Premier portfolio en React.",
-    "text": "Premier projet complet avec React. J’y ai appris à structurer une application front-end, gérer le responsive design et intégrer des animations simples."
-  },
-  {
     "name": "Weather App",
     "id": "weather-app",
-    "year": "2025",
+    "year": "2026",
+    "color": "#96B1C3",
     "link": "https://weathernowflow2510.netlify.app/",
-    "git": "",
-    "tags": ["API", "React", "Responsive"],
-    "stack": ["REACT", "SCSS"],
-    "library": ["Vite", "REST API"],
-    "score": {
-      "desktop": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null },
-      "mobile": { "perf": null, "accessibility": null, "bestPractices": null, "seo": null }
-    },
-    "image": "/images/weather-mockup.webp",
-    "alt": "Mockup de l'application météo sur tablette",
-    "image2": "/images/weather-mockup.webp",
-    "alt2": "Mockup de l'application météo sur tablette",
-    "image3": "/images/weather-mockup.webp",
-    "alt3": "Mockup de l'application météo sur tablette",
+    "type": "Application Web",
+    "videos": [
+      "/public/videos/weather-search.mp4",
+      "/public/videos/weather-switch.mp4"
+    ],
+    "images": [
+      "/images/weather-mockup.webp",
+      "/images/weather-mockup2.webp",
+      "/images/weather-mockup.webp"
+    ],
+    "alts": [
+      "Mockup de l'application météo sur tablette",
+      "Mockup de l'application météo sur tablette",
+      "Mockup de l'application météo sur tablette"
+    ],
     "intro": "Application météo avec API.",
     "text": "Application permettant de consulter la météo d’une ville via une API. Travail sur l’affichage des données, la réactivité de l’interface et la lisibilité sur tous les écrans."
+  },
+  {
+    "name": "Portfolio v1",
+    "id": "portfolio-03",
+    "year": "2026",
+    "color": "#fff",
+    "link": "https://sendraflorian.netlify.app/",
+    "type": "Portfolio",
+    "videos": [
+      "/public/videos/loader-portfolio.mp4",
+      "/public/videos/gallery-portfolio.mp4"
+    ],
+    "images": [
+      "/images/portfolio3-mobile-mockup.webp",
+      "/images/portfolio3-mockup2.webp",
+      "/images/portfolio3-mockup3.webp"
+    ],
+    "alts": [
+      "Mockup du portfolio personnel version 3 affiché sur un écran mobile",
+      "Mockup du portfolio personnel version 3 affiché sur un écran mobile",
+      "Mockup du portfolio personnel version 3 affiché sur un écran mobile"
+    ],
+    "intro": "Portfolio React avec animations et navigation fluide.",
+    "text": "Portfolio conçu avec React pour présenter mes projets. J’ai mis l’accent sur la fluidité des animations, la structure des composants et une navigation claire. Le site est entièrement responsive et optimisé pour une expérience utilisateur rapide et cohérente."
   }
 ]
