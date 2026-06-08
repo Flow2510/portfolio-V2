@@ -172,7 +172,7 @@ export default function Hero({ projects, isDesktop, isTablet }) {
                                             className="hero__desktop-image"
                                             src={mediaList[1]}
                                             loading="lazy"
-                                            alt="" 
+                                            alt={projects[index]?.alts[0]} 
                                         />   
                                     </AnimatePresence> 
                                 </motion.div>
@@ -220,7 +220,7 @@ export default function Hero({ projects, isDesktop, isTablet }) {
                                             className="hero__desktop-image"
                                             src={mediaList[3]}
                                             loading="lazy"
-                                            alt="" 
+                                            alt={projects[index]?.alts[1]}
                                         />   
                                     </AnimatePresence> 
                                 </motion.div>                            
