@@ -11,10 +11,9 @@ export default function AboutInfo({ isDesktop }) {
 
     const learning = [
         "React Three Fiber",
-        "Three.js",
-        "WebGL",
         "Advanced Animations",
-        "TailWind"
+        
+        "MongoDB"
     ]
 
     const stackList = [
@@ -22,8 +21,8 @@ export default function AboutInfo({ isDesktop }) {
         "JavaScript",
         "HTML / CSS",
         "Sass",
-        "GSAP/MOTION",
-        "Figma"
+        "TailWind",
+        "GSAP/MOTION"
     ]
 
     const expertiseList = [
