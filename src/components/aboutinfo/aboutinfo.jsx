@@ -10,9 +10,9 @@ export default function AboutInfo({ isDesktop }) {
     ]
 
     const learning = [
+        "TypeScript",
         "React Three Fiber",
         "Advanced Animations",
-        
         "MongoDB"
     ]
 
