@@ -1,5 +1,26 @@
 [
-  
+  {
+    "name": "Porvenir",
+    "id": "porvenir",
+    "year": "2026",
+    "color": "#a7bb77",
+    "link": "https://aubergedelporvenir.netlify.app/",
+    "type": "Site Vitrine",
+    "videos": [
+      "/videos/porvenir-hero.mp4",
+      "/videos/porvenir-body.mp4"
+    ],
+    "images": [
+      "/images/porvenir-mockup-tablet.webp",
+      "/images/porvenir-mockup-mobile.webp"
+    ],
+    "alts": [
+      "Mockup du site Porvenir affiché sur mobile",
+      "Mockup du site Porvenir affiché sur un pc portable"
+    ],
+    "intro": "Site vitrine client responsive pour une auberge ",
+    "text": "Site vitrine développé avec React pour l'Auberge del Porvenir. Interface claire et lisible, pensée pour convertir les visiteurs en clients. Travail poussé sur le responsive design, l'accessibilité et l'optimisation SEO. Premier projet client livré et déployé en production."
+  },
   {
     "name": "Lorem Agency",
     "id": "lorem-agency",
@@ -43,28 +64,6 @@
     ],
     "intro": "Portfolio React avec animations avancées, design soigné et performances optimisées.",
     "text": "Deuxième version de mon portfolio, conçu comme un vrai projet créatif de bout en bout. Animations avec Motion, design inspiré des meilleurs studios web, navigation fluide et expérience immersive."
-  },
-  {
-    "name": "Porvenir",
-    "id": "porvenir",
-    "year": "2026",
-    "color": "#a7bb77",
-    "link": "https://aubergedelporvenir.netlify.app/",
-    "type": "Site Vitrine",
-    "videos": [
-      "/videos/porvenir-gallery.mp4",
-      "/videos/porvenir-body.mp4"
-    ],
-    "images": [
-      "/images/porvenir-mockup.webp",
-      "/images/porvenir-mockup2.webp"
-    ],
-    "alts": [
-      "Mockup du site Porvenir affiché sur mobile",
-      "Mockup du site Porvenir affiché sur un pc portable"
-    ],
-    "intro": "Site vitrine client responsive pour une auberge ",
-    "text": "Site vitrine développé avec React pour l'Auberge del Porvenir. Interface claire et lisible, pensée pour convertir les visiteurs en clients. Travail poussé sur le responsive design, l'accessibilité et l'optimisation SEO. Premier projet client livré et déployé en production."
   },
   {
     "name": "FX Checker",
