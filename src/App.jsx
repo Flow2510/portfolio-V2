@@ -12,8 +12,8 @@ import Archives from './pages/archives'
 function App() {
   const [loading, setLoading] = useState(true)
   const [projectsList, setProjectsList] = useState([])
-  const [isDesktop, setIsDekstop] = useState(globalThis.innerWidth > 1024)
-  const [isTablet, setIsTablet] = useState(globalThis.innerWidth > 768)
+  const [isDesktop, ] = useState(globalThis.innerWidth > 1024)
+  const [isTablet, ] = useState(globalThis.innerWidth > 768)
 
   useEffect(() => {
     setProjectsList(projects)
