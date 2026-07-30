@@ -60,6 +60,10 @@
             color: inherit;
             font-family: "roboto mono", sans-serif;
             overflow: hidden;
+
+            &:hover{
+                scale: 1.05;
+            }
             
             span{
                 display: inline-block;

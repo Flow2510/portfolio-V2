@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './menu.scss';
 import { motion } from 'motion/react';
-import { animate, delay } from 'motion';
+import { animate } from 'motion';
 
 export default function Menu({ menuIsOpen, setMenuIsOpen }) {
     const closeMenu = () => {

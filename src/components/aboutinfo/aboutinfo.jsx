@@ -99,7 +99,7 @@ export default function AboutInfo({ isDesktop }) {
                         <li><a className='about-info__contact-link' href="mailto:sendra.florian@gmail.com" target='_blank'>sendra.florian@gmail.com <i className="fa-solid fa-arrow-right about-info__contact-arrow"></i></a></li>
                         <li><a className='about-info__contact-link' href="https://github.com/Flow2510" target='_blank'>Github <i className="fa-solid fa-arrow-right about-info__contact-arrow"></i></a></li>
                         <li><a className='about-info__contact-link' href="https://www.linkedin.com/in/florian-sendra-3270961a1/" target='_blank'>Linkedin <i className="fa-solid fa-arrow-right about-info__contact-arrow"></i></a></li>
-                        <li><a className='about-info__contact-link' href="/public/CV.pdf" target='_blank'>CV <i className="fa-solid fa-arrow-right about-info__contact-arrow"></i></a></li>
+                        <li><a className='about-info__contact-link' href="/CV.pdf" target='_blank'>CV <i className="fa-solid fa-arrow-right about-info__contact-arrow"></i></a></li>
                     </ul>
                 </div>
             </div>            
