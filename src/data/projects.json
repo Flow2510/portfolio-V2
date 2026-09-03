@@ -1,5 +1,27 @@
 [
   {
+    "name": "The Motion Library",
+    "id": "the-motion-library",
+    "year": "2026",
+    "color": "#bbf451",
+    "link": "https://the-motion-library.vercel.app/",
+    "type": "Site Vitrine",
+    "videos": [
+      "/videos/motion-library-body.mp4",
+      "/videos/motion-library-collection.mp4"      
+    ],
+    "images": [
+      "/images/motion-library-computer-mockup.webp",
+      "/images/motion-library-phone-mockup.webp"
+    ],
+    "alts": [
+      "Mockup du site The Motion Library affiché sur un écran de pc portable",
+      "Mockup du site The Motion Library affiché sur un smartphone"
+    ],
+    "intro": "Bibliothèque d'animations web interactives — showcase d'effets scroll et de transitions immersives.",
+    "text": "Plateforme regroupant une collection d'animations web modernes, pensée pour explorer et démontrer des interactions au scroll, transitions fluides et effets visuels avancés. Développé avec GSAP et Motion pour des animations performantes et précises, mise en page responsive et expérience utilisateur soignée sur tous les supports."
+  },
+  {
     "name": "Porvenir",
     "id": "porvenir",
     "year": "2026",
@@ -20,28 +42,6 @@
     ],
     "intro": "Site vitrine client responsive pour une auberge ",
     "text": "Site vitrine développé avec React pour l'Auberge del Porvenir. Interface claire et lisible, pensée pour convertir les visiteurs en clients. Travail poussé sur le responsive design, l'accessibilité et l'optimisation SEO. Premier projet client livré et déployé en production."
-  },
-  {
-    "name": "Lorem Agency",
-    "id": "lorem-agency",
-    "year": "2026",
-    "color": "#E09B67",
-    "link": "https://lorem-agency.vercel.app/",
-    "type": "Site Agence",
-    "videos": [
-      "/videos/lorem-intro.mp4",
-      "/videos/lorem-body.mp4"
-    ],
-    "images": [
-      "/images/lorem-agency-mockup.webp",
-      "/images/lorem-agency-mockup2.webp"
-    ],
-    "alts": [
-      "Mockup d’un site de création digitale affiché sur un écran de pc portable",
-      "Mockup d’un site de création digitale affiché sur un smartphone"
-    ],
-    "intro": "Site d'agence créative premium — animations immersives et expérience utilisateur haut de gamme.",
-    "text": "Concept de site pour une agence digitale moderne, conçu pour incarner une identité visuelle forte à travers un univers premium et immersif. Animations fluides avec Motion, scroll storytelling, interactions dynamiques et mise en page élégante. Entièrement responsive et optimisé sur tous les supports."
   },
   {
     "name": "Portfolio V2",

@@ -10,15 +10,15 @@ export default function AboutInfo({ isDesktop }) {
     ]
 
     const learning = [
-        "TypeScript",
         "React Three Fiber",
         "Advanced Animations",
-        "MongoDB"
+        "MongoDB", 
     ]
 
     const stackList = [
         "React",
         "JavaScript",
+        "TypeScript",
         "HTML / CSS",
         "Sass",
         "TailWind",
